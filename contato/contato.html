@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+
+<body>
+    <h1>Meus contatos</h1>
+    <ul>
+        <li>Telefone 47 996446255</li>
+        <li>E-mail: fernandodev012@gmail.com</li>
+
+    </ul>
+
+    <form action="mailton:fernando@nihues.com" method="post" enctype="text/plain"> <!--metodo post/ é o metodo de envio , nesse caso envio para o email-->
+        <label for="">Nome Completo</label>
+        <input type="text" name="Nome"><br> <br>
+
+        <label for="">E-mail</label>
+        <input type="email" name="email"><br> <br>
+
+        <label for="">Sua Mensagem</label><br>
+        <textarea name="mensagem" id="" cols="40" rows="12"></textarea><br><br>
+
+        <input type="submit"><br><br>
+
+    </form>
+
+</body>
+
+</html>
